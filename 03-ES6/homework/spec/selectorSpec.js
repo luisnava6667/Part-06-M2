@@ -136,7 +136,7 @@ describe("funcion de selector $ ", function() {
 });
 
 describe("Credito Extra", function () {
-  describe("Selector de Jerarquía", function (){
+  describe(" ", function (){
     it("debe seleccionar los elementos correctos cuando el selector incluye a un child combinator (>)", function () {
         elements = $('div > img');
         expect(elements.length).toEqual(7);

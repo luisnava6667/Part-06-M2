@@ -536,3 +536,19 @@ Hay otras variaciones que podés tomar de este patrón fundamental de `import`/`
 ### Una ultima vez
 
 Esta bien - hagamos esto una vez más. Ve a través de tus archivos JavaScript y remplazá el sistema require/module.exports con el sistema import/export. Toma extra cuidado con las diferencias entre `export` y `export default`
+
+COMMONJS 
+BACK=
+  exportar:
+    module.export = {a, b, c}
+  importar:
+    let {a, b, c} = require('./nombre del archivo')
+ES6 -> FRONT=
+  exportar:
+    export 
+    export default "variable/funcion" 1 por archivo
+  importar:
+    import {} from './nombre del archivo'
+    import default "variable/funcion"  from './nombredel archivo'
+
+

@@ -167,6 +167,10 @@ nav {
   align-items: center;
   padding: 15px;
   background: #F6F6F6;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 1;
 }
 nav ul {
   display: flex;
@@ -204,7 +208,7 @@ footer {
 }
 .home .intro img {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 110px;
   border-radius: 20px;
 }
 .home .music-images {
@@ -305,4 +309,44 @@ footer {
     margin-right: 1px;
     padding: 5px;
   }
+}
+h2 {
+  text-align: center;
+}
+legend {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input {
+  display: flex;
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.form {
+  align-items: center;
+  border: #22283A solid 3px;
+  border-radius: 20px;
+}
+button {
+  background-color: #22283A;
+  border: #22283A solid 3px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: white;
+  color: #22283A;
+}
+.tel {
+  margin-bottom: 10px;
 }
